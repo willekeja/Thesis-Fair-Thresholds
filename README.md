@@ -4,5 +4,8 @@ This repository contains all files to run the models from the thesis. Examples o
 
 The file names are mostly descriptive, the following provides an additional summary:
 
-1) replication_results_vfae and replication_results_adversarial_learning provide replications of the results reported in the original papers
-2) performance_comparison_lipton provides a comparison to the post-processing proposed by lipton et. al.
+1) replication_results_vfae.ipynb and replication_results_adversarial_learning.ipynb provide replications of the results reported in the original papers
+2) lipton.ipynb provides a comparison to the post-processing proposed by lipton et. al.
+3) algorithms are defined in adversarial.py (adversarial models), vfae.py (variational fair autoencoder), pp_nn.py (post-processing for neural network) and algorithms_new (remaining models)
+4) utils_new.py contains several functions used throughout the remaining scripts
+5) datasets are compas.csv, credit.csv, residencia.xlsx and Data.dat (adult)
